@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NTT_16028491</string>
+
+    <string name="edit_text_id">Nhập mã nhân viên</string>
+    <string name="edit_text_name">Nhập họ tên</string>
+    <string name="edit_text_phone_number">Nhập số điện thoại</string>
+
+    <string name="radio_button_male">Nam</string>
+    <string name="radio_button_female">Nữ</string>
+
+    <string name="button_exit">Exit</string>
+    <string name="button_add">Add</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_save">Save</string>
+    <string name="button_view">Xem</string>
+
+    <string name="menu_add">Nhập mới</string>
+    <string name="menu_search">Tìm kiếm</string>
+</resources>

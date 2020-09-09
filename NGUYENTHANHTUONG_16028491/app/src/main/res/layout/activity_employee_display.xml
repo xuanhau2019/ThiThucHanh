@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EmployeeDisplayActivity">
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:textAllCaps="false"
+        android:text="@string/button_exit"
+        tools:ignore="RtlHardcoded" />
+
+    <EditText
+        android:id="@+id/edtId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_text_id"
+        android:autofillHints=""
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/button_view"
+        tools:ignore="RtlHardcoded" />
+
+    <GridView
+        android:id="@+id/gv_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="4"/>
+
+</LinearLayout>
